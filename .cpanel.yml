@@ -2,6 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/misofisg/public_html
-    - /bin/cp -R /css $DEPLOYPATH
-    - /bin/cp -R /js $DEPLOYPATH
-    - /bin/cp -R index.html $DEPLOYPATH
+    - /bin/cp /css $DEPLOYPATH
+    - /bin/cp /js $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
