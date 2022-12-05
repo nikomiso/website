@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,600;1,700;1,800&display=swap");
+
+html {
+	min-width: fit-content;
+	height: 100%;
+}
+
+body.nm-01 {
+	font-family: "Open Sans";
+	background-color: #3d4fa0;
+	width: 100%;
+}
+
+.hello-world {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	display: block;
+	font-size: 22px;
+	font-weight: 600;
+	font-family: roboto, open sans;
+	padding-top: 50px;
+}
+
+.lorem-ipsum__container {
+	text-transform: uppercase;
+	padding-top: 4rem;
+}
+
+.lorem-ipsum__text {
+	color: #fff200;
+	font-size: 18rem;
+	font-style: italic;
+	font-weight: 700;
+	line-height: 0.95;
+}
+
+.footer {
+	color: #f8f9fa;
+}
+
+.footer__container {
+	border-top: 1px solid #ced4da;
+}
+
+/* Menu Bar */
+
+.navbar-brand {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.menu__container .offcanvas-backdrop {
+	width: 100%;
+	height: 100%;
+}
+
+@media screen and (max-width: 699px) {
+	.lorem-ipsum__text {
+		font-size: 40vw;
+	}
+}
